@@ -1,0 +1,148 @@
+body {
+  font-family: 'Hind Guntur', sans-serif;
+  margin: 0;
+  color: white;
+  background-color: rgb(151, 98, 0);
+}
+
+.landing-bg {
+  width: calc(100vw - (100vw - 100%));
+  height: 120vh;
+  background-image: url("../images/pattern.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.landing-fade {
+  width: 100%;
+  height: 20%;
+  background-image: linear-gradient(to bottom, rgba(151, 98, 0, 0), rgba(151, 98, 0, 1));
+  position: absolute;
+  bottom: 0;
+}
+
+.landing-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 6rem;
+  font-weight: 300;
+  text-shadow: 0 0 20px black;
+  line-height: 5rem;
+}
+
+.landing-text p {
+  font-size: 2rem;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 450px;
+  background-color: rgb(185, 121, 0);
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  color: rgb(255, 212, 131);
+  margin: 20px;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1rem;
+  margin-top: 24px;
+}
+
+.main-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.desc {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+hr {
+  border: none;
+  border-bottom: 6px dotted rgb(151, 98, 0);
+  margin: 24px 0 24px 50%;
+  transform: translateX(-50%);
+  width: 13%;
+}
+
+.stats {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.strength {
+  display: inline-block;
+  margin: 0;
+}
+
+.intelligence {
+  float: right;
+  margin: 0;
+}
+
+.stats-pics {
+  text-align: left;
+}
+
+.strength-pics {
+  display: inline-block;
+}
+
+.intelligence-pics {
+  float: right;
+}
+
+input {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: rgb(151, 98, 0);
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px;
+  border-style: solid;
+  border-color: rgb(255, 212, 131);
+  margin-top: 10px;
+  color: inherit;
+}
+
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 0 20px 5px rgb(255, 212, 131);
+}
+
+input:hover {
+  background-color: rgb(185, 121, 0);
+}
+
+input:active {
+  background-color: rgb(255, 212, 131);
+  color: rgb(151, 98, 0);
+}
