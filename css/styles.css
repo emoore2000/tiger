@@ -36,12 +36,13 @@ h1 {
   font-size: 6rem;
   font-weight: 300;
   text-shadow: 0 0 20px black;
-  line-height: 5rem;
+  line-height: 7rem;
 }
 
 .landing-text p {
   font-size: 2rem;
   color: white;
+  line-height: 3rem;
 }
 
 .card-container {
