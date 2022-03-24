@@ -82,4 +82,8 @@ img {
     margin: 40px auto 0 auto;
     display: block;
   }
+
+  form {
+    display: none;
+  }
 }
