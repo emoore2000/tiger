@@ -9,6 +9,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  line-height: 2rem;
 }
 
 input {
@@ -30,6 +31,12 @@ form {
 p {
   font-size: 1.2rem;
   color: rgb(255, 212, 131);
+}
+
+img {
+  box-sizing: border-box;
+  border: 8px solid rgb(185, 121, 0);
+  max-width: 100%;
 }
 
 .siberian-image-1 {
@@ -56,10 +63,7 @@ p {
   font-style: italic;
 }
 
-img {
-  border: 8px solid rgb(185, 121, 0);
-  max-width: 100%;
-}
+
 
 
 
@@ -68,5 +72,14 @@ img {
 @media (max-width: 1064px) {
   .content {
     width: 100%;
+  }
+}
+
+@media (max-width: 680px) {
+  .siberian-image-1, .siberian-image-2, .siberian-map {
+    float: none;
+    clear: both;
+    margin: 40px auto 0 auto;
+    display: block;
   }
 }
