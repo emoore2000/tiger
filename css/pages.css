@@ -1,0 +1,72 @@
+body {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+input {
+  margin: 0;
+}
+
+form {
+  width: 100px;
+  position: sticky;
+  top: 20px;
+}
+
+.content {
+  box-sizing: border-box;
+  width: 1000px;
+  margin: 20px auto 0;
+}
+
+p {
+  font-size: 1.2rem;
+  color: rgb(255, 212, 131);
+}
+
+.siberian-image-1 {
+  float: right;
+  margin: 20px 0 0 20px;
+  position: relative;
+  bottom: 30px;
+}
+
+.siberian-image-2 {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+.siberian-map {
+  margin-top: 20px;
+  max-width: 570px;
+}
+
+.map-desc {
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-top: 0;
+  font-style: italic;
+}
+
+img {
+  border: 8px solid rgb(185, 121, 0);
+  max-width: 100%;
+}
+
+
+
+
+
+@media (max-width: 1064px) {
+  .content {
+    width: 100%;
+  }
+}
