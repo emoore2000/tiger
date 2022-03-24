@@ -75,7 +75,7 @@ img {
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 880px) {
   .siberian-image-1, .siberian-image-2, .siberian-map {
     float: none;
     clear: both;
