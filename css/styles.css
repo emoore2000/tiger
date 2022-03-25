@@ -130,6 +130,22 @@ input {
   color: inherit;
 }
 
+.button {
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  background-color: rgb(151, 98, 0);
+  width: 100%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 5px;
+  display: inline-block;
+  border: 2px solid rgb(255, 212, 131);
+  margin-top: 10px;
+  color: inherit;
+}
+
 .card {
   transition: 0.3s;
 }
@@ -139,11 +155,11 @@ input {
   box-shadow: 0 0 20px 5px rgb(255, 212, 131);
 }
 
-input:hover {
+.button:hover {
   background-color: rgb(185, 121, 0);
 }
 
-input:active {
+.button:active {
   background-color: rgb(255, 212, 131);
   color: rgb(151, 98, 0);
 }
