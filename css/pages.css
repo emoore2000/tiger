@@ -28,12 +28,35 @@ h2 {
   margin: 0;
 }
 
+.sidenav {
+  position: fixed;
+  background-color: rgb(151, 98, 0);
+  width: 300px;
+  top: 84px;
+  left: 0;
+  box-shadow: 0 0 10px 5px rgb(151, 98, 0);
+}
+
+.sidenav p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  line-height: 2rem;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: rgb(255, 212, 131);
+  font-weight: 400;
+  font-family: inherit;
+}
+
 .content {
   box-sizing: border-box;
   width: 1000px;
   margin: 20px auto 0;
   background-color: rgb(151, 98, 0);
-  padding: 8px;
+  padding: 20px;
   box-shadow: 0 0 10px 5px rgb(151, 98, 0);
 }
 
@@ -81,10 +104,39 @@ img {
   font-weight: bold;
 }
 
+.bengal_image_1 {
+  float: right;
+  max-width: 350px;
+  margin-left: 20px;
+}
 
 
 
 
+
+
+
+@media (max-width: 1648px) {
+  .content {
+    margin: 20px 100px 0 auto;
+  }
+}
+
+@media (max-width: 1454px) {
+  .content {
+    margin: 20px 0 0 auto;
+  }
+}
+
+@media (max-width: 1340px) {
+  .content {
+    margin: 20px auto 0;
+  }
+
+  .sidenav {
+    display: none;
+  }
+}
 
 @media (max-width: 1064px) {
   .content {
@@ -93,10 +145,10 @@ img {
 }
 
 @media (max-width: 880px) {
-  .siberian-image-1, .siberian-image-2, .siberian-map {
+  .content img {
     float: none;
     clear: both;
-    margin: 40px auto 0 auto;
+    margin: 40px auto 20px auto;
     display: block;
   }
 
